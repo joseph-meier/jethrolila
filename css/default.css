@@ -1,0 +1,28 @@
+
+
+#girl {
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+
+#question {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text] {
+   display: flex;
+   justify-content: center;
+}
+input[name=password] {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+}
