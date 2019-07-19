@@ -1,4 +1,4 @@
-html {
+dhtml {
     max-width: 1440px;
 }
 body {
@@ -20,7 +20,7 @@ body {
 
 .Sparkle {
 	 display: -webkit-flex;
-	 font-size: 1.5em;
+	 font-size: 2.3em;
      font-family: 'Average', serif;
 	 -webkit-text-fill-color: blue;
      background: -webkit-linear-gradient(transparent, transparent),
@@ -283,20 +283,20 @@ ul {
     justify-content: center;
     text-align: left;
     font-family: 'Average', serif;
-    font-size: 1.65em;
-    color: red;
+    font-size: 2.65em;
+    color: blue;
+    padding-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
 #UL_1 {
-    box-sizing: border-box;
     color: rgba(0, 0, 0, 0.85);
     height: 350.938px;
     text-align: left;
-    text-decoration: none solid rgba(0, 0, 0, 0.85);
+    text-decoration: none;
     text-size-adjust: 100%;
-    width: 400px;
+    Width: 100vw;
     column-rule-color: rgba(0, 0, 0, 0.85);
     perspective-origin: 200px 175.469px;
     transform-origin: 200px 175.469px;
@@ -305,18 +305,16 @@ ul {
     font: normal normal normal normal 43.0254px / 53.7817px Fort;
     list-style: none outside none;
     margin: 0px;
-    outline: rgba(0, 0, 0, 0.85) none 0px;
     padding-left: 100px;
     padding-right: 100px;
 }/*#UL_1*/
 
-#LI_2, #LI_4, #LI_6, #LI_8, #LI_10 {
+#LI_2, #LI_4, #LI_6, #LI_8, #LI_10 #LI {
     box-sizing: border-box;
     color: rgba(0, 0, 0, 0.85);
     height: 70.1875px;
     text-decoration: none solid rgba(0, 0, 0, 0.85);
     text-size-adjust: 100%;
-    width: 400px;
     column-rule-color: rgba(0, 0, 0, 0.85);
     perspective-origin: 200px 35.0938px;
     transform-origin: 200px 35.0938px;
@@ -326,6 +324,7 @@ ul {
     list-style: none outside none;
     outline: rgba(0, 0, 0, 0.85) none 0px;
     padding: 8.60508px 0px;
+    text-decoration: none;
 }/*#LI_2, #LI_4, #LI_6, #LI_8, #LI_10*/
 
 #A_3, #A_5, #A_9 {
@@ -343,6 +342,7 @@ ul {
     font: normal normal normal normal 43.0254px / 53.7817px Fort;
     list-style: none outside none;
     outline: rgba(0, 0, 0, 0.85) none 0px;
+    text-decoration: none;
 }/*#A_3, #A_5, #A_9*/
 
 #A_7 {
@@ -361,6 +361,7 @@ ul {
     font: normal normal normal normal 43.0254px / 53.7817px Fort;
     list-style: none outside none;
     outline: rgba(0, 0, 0, 0.85) none 0px;
+    text-decoration: none;
 }/*#A_7*/
 
 #A_11 {
@@ -378,6 +379,25 @@ ul {
     font: normal normal normal normal 43.0254px / 53.7817px Fort;
     list-style: none outside none;
     outline: rgba(0, 0, 0, 0.85) none 0px;
+    text-decoration: none;
+}/*#A_11*/
+
+#A_12 {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: left;
+    text-decoration: none solid rgba(0, 0, 0, 0.85);
+    text-size-adjust: 100%;
+    column-rule-color: rgba(0, 0, 0, 0.85);
+    caret-color: rgba(0, 0, 0, 0.85);
+    border-top: 0px none rgba(0, 0, 0, 0.85);
+    border-right: 0px none rgba(0, 0, 0, 0.85);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-left: 0px none rgba(0, 0, 0, 0.85);
+    font: normal normal normal normal 43.0254px / 53.7817px Fort;
+    list-style: none outside none;
+    outline: rgba(0, 0, 0, 0.85) none 0px;
+    text-decoration: none;
 }/*#A_11*/
 
 #team-list {
@@ -467,9 +487,9 @@ li {
 #sworks {
     display: flex;
     margin-left: 10%;
-    color: blue;
+    color: green;
     font-family: 'Average', serif;
-    font-size: 1.65em;
+    font-size: 1.95em;
 }
 
 .splacer {
