@@ -839,8 +839,32 @@ max-width: 100vw;
  position: relative;
 }
 .scroll h3 {
- font-size: .7em;
- color: red;
+  background:url("https://media.giphy.com/media/dpp3DNAet0Fs4/giphy.gif") repeat;
+  background-position:10px;
+ 	-webkit-background-clip: text;
+    color: transparent;
+ font-size: .6em;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll 15s linear infinite;
+ -webkit-animation: scroll 15s linear infinite;
+ animation: scroll 15s linear infinite;
+}
+.scroll h4 {
+  background:url("https://media.giphy.com/media/dpp3DNAet0Fs4/giphy.gif") repeat;
+  background-position:10px;
+ 	-webkit-background-clip: text;
+    color: transparent;
+ font-size: 2em;
  position: absolute;
  width: 100%;
  height: 100%;
